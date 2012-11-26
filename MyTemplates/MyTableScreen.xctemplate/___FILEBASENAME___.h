@@ -6,7 +6,7 @@
 //___COPYRIGHT___
 //
 
-#import <#"MySuperScreen.h"#>
+#import "<#MySuperScreen#>.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : <#MySuperScreen#>
 
