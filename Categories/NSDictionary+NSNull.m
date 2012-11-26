@@ -10,7 +10,7 @@
 
 @implementation NSDictionary (NSNull)
 
-- (NSDictionary *)removeNulls {
+- (NSDictionary *)unnullable {
     self = [[self mutableCopy] autorelease];
     NSArray *nulls = [self allKeysForObject:[NSNull null]];
     for (id key in nulls) {

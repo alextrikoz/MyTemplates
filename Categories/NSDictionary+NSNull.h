@@ -10,6 +10,6 @@
 
 @interface NSDictionary (NSNull)
 
-- (NSDictionary *)removeNulls;
+- (NSDictionary *)unnullable;
 
 @end

@@ -17,7 +17,7 @@
 }
 
 + (___FILEBASENAMEASIDENTIFIER___ *)objectWithDictionary:(NSDictionary *)dictionary {
-    [dictionary removeNulls]
+    [dictionary unnullable]
     ___FILEBASENAMEASIDENTIFIER___ *object = [[[___FILEBASENAMEASIDENTIFIER___ alloc] init] autorelease];
     <#mapping#>
     return object;
