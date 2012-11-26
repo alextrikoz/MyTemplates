@@ -10,4 +10,6 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
 
++ (___FILEBASENAMEASIDENTIFIER___ *)objectWithDictionary:(NSDictionary *)dictionary;
+
 @end

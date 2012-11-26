@@ -16,9 +16,9 @@
     [super dealloc];
 }
 
-+ (MFAQ *)objectWithDictionary:(NSDictionary *)dictionary {
++ (___FILEBASENAMEASIDENTIFIER___ *)objectWithDictionary:(NSDictionary *)dictionary {
     [dictionary removeNulls]
-    MFAQ *object = [[[MFAQ alloc] init] autorelease];
+    ___FILEBASENAMEASIDENTIFIER___ *object = [[[___FILEBASENAMEASIDENTIFIER___ alloc] init] autorelease];
     <#mapping#>
     return object;
 }
