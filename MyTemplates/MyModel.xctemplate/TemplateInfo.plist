@@ -2,21 +2,59 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>AllowedTypes</key>
-    <array>
-        <string>public.objective-c-source</string>
-    </array>
-    <key>Description</key>
-    <string>A simple template to produce an Objective-C class.</string> 
-    <key>Kind</key>
-    <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-    <key>MainTemplateFile</key>
-    <string>___FILEBASENAME___.m</string>
-    <key>Platforms</key>
-    <array>
-        <string>com.apple.platform.iphoneos</string>
-    </array>
-    <key>SortOrder</key>
-    <integer>3</integer>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+	</array>
+	<key>Description</key>
+	<string>A simple template to produce an Objective-C class.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>text</string>
+			
+			<key>Name</key>
+			<string>Class Name</string>
+			
+			<key>Description</key>
+			<string></string>
+			
+			<key>Identifier</key>
+			<string>name</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>popup</string>
+			
+			<key>Default</key>
+			<string>ARC</string>
+			
+			<key>Values</key>
+			<array>
+				<string>ARC</string>
+				<string>MRR</string>
+			</array>
+
+			<key>Name</key>
+			<string>Memory</string>
+			
+			<key>Description</key>
+			<string></string>
+			
+			<key>Identifier</key>
+			<string>ARC</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>3</integer>
 </dict>
 </plist>
